@@ -1,0 +1,59 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Font Awesome CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<!-- Country Picker Select https://github.com/mrmarkfrench/country-select-js -->
+	<link rel="stylesheet" type="text/css" href="css/countrySelect.min.css">
+	<!-- Style CSS -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	
+	<div class="container formSignUp">
+		<div id="formHeader"><h2>Let's Get Started!</h2></div>
+		<form>						
+
+			<input type="text" value="Username" class="form-control value">
+
+			<input type="text" value="Email" class="form-control value">
+
+			<input type="text" id="country" class="form-control value" value="Select your country">
+
+			<form class="form-inline">
+				<div class="form-group" id="terms">
+					<input type="radio" value="accept">
+					<label>I agree to the <a href="">Terms &amp; Conditions</a></label>
+				</div>
+			</form>
+
+			<div class="text-center">
+				<input type="submit" class="btn btn-red" value="Sign Up">
+			</div>
+
+			<div id="formFooter"><h3>Or Sign Up with:</h3></div>
+			<div class="col-md-4 col-xs-4 alternative line">
+				<object type="image/svg+xml" data="img/icon-google.svg" class="icon"></object></div>
+			<div class="col-md-4 col-xs-4 alternative line">
+				<object type="image/svg+xml" data="img/icon-twitter.svg" class="icons"></object></div>
+			<div class="col-md-4 col-xs-4 alternative no-line">
+				<object type="image/svg+xml" data="img/icon-facebook.svg" class="icons"></object></div>				
+		</form>
+	</div>
+
+
+<!-- jQuery CDN -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!-- Country Select -->
+<script src="js/countrySelect.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- My JS -->
+<script src="js/main.js"></script>
+
+</body>
+</html>

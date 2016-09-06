@@ -1,0 +1,109 @@
+@import 'https://fonts.googleapis.com/css?family=Dosis';
+
+/* Basic Styling */
+body{
+	background-image: url(../img/tampa.jpg);
+	background-size: cover;
+	font-family: 'Dosis', sans-serif;
+}
+h2{
+	font-size: 30px;
+	margin: 0;
+}
+h3{
+	font-size: 20px;
+	margin: 0;
+}
+p{
+	font-size: 14px;
+}
+/* --------- */
+
+.formSignUp{	
+	background-color: rgba(255, 255, 255, .75);
+	margin-bottom: 15%;
+	margin-top: 15%;
+	min-width: 320px;
+	padding: 0;
+	width: 90%;
+}
+#formHeader{	
+	background-color: #F34A38;	
+	border-bottom: 2px #999 solid;
+	color: #fff;	
+	margin-top: -30px;
+	padding: 40px 0 8px 45px;
+}
+form{
+	margin: 0;
+    padding: 45px 45px 30px 45px;    
+}
+.value{
+	border: 1px #999 solid;
+	border-radius: 0;
+	-webkit-box-shadow: 0px 3px 1px 0px rgba(153, 153, 153, 0.5);
+	-moz-box-shadow:    0px 3px 1px 0px rgba(153, 153, 153, 0.5);
+	box-shadow:         0px 3px 1px 0px rgba(153, 153, 153, 0.5);
+	color: #666;
+	margin: 0 0 15px 0 ;
+	padding-left: 8px;	
+}
+.country-select {
+    width: 100%;
+}
+.country-select.inside input[type=text], .country-select.inside input[type=tel] {
+    margin-left: 0;
+    padding-left: 45px;
+}
+#terms{
+	margin-bottom: 0;
+	padding-top: 45px;
+	text-align: center;
+}
+.btn-red{	
+	background-color: #F34A38;	
+	border-radius: 0;
+	color: #fff;
+	margin-bottom: 20px;
+	padding: 7px 32px;
+}
+.btn-red:hover{	
+	color: #fff;
+	-webkit-box-shadow: 0px 3px 1px 0px rgba(153, 153, 153, 0.5);
+	-moz-box-shadow:    0px 3px 1px 0px rgba(153, 153, 153, 0.5);
+	box-shadow:         0px 3px 1px 0px rgba(153, 153, 153, 0.5);	
+	
+}
+#formFooter{
+	background-color: #296E9E;
+	color: #fff;
+	padding: 7px 0 7px 45px;
+}
+.alternative{
+	text-align: center;
+}
+.line{
+	border-right: 2px solid #296E9E;
+	padding: 18px 0;
+}
+.no-line{
+	padding: 18px 0;
+}
+.icon{
+	width: 40%;
+}
+.icons{
+	width: 30%;
+}
+
+
+@media screen and (min-width : 700px) and (max-width : 1430px){
+	.formSignUp{
+		width: 50%;
+	}
+}
+@media screen and (min-width : 1430px){
+	.formSignUp{
+		width: 25%;
+	}
+}
